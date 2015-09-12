@@ -157,6 +157,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   height: 100%;
+  width: 100%;
 }
 
 a {
@@ -170,29 +171,41 @@ img {
 /* LOGO */
 
 #logo {
-  float: none;
 	font-family: 'Alegreya Sans', sans-serif;
 	color: white;
-	text-align: center;
 	font-size: 1.5em;
-	padding: 10%;
+	padding: 10% 15% 10% 15%;
 	display: block;
 }
 
 #logo h1, h2 {
 	margin: 0;
+  text-align: center;
 }
 
 #logo h1 {
 	font-size: 2em;
 }
+
 /* EXAMPLES */
 
 #work {
-	list-style: none;
-	padding: 10%;
-	width: 100%;
-	display: inline-block;
+  width: 100%;
+  border-top: 1px solid #eee;
+  text-align: center;
+}
+
+.container {
+  margin-top: 10%;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+}
+
+.container li {
+  display: inline-block;
+  width: 40%;
+  padding: 12px;
 }
 
 /* COLOUR */
