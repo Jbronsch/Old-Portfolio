@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="nojs">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,37 +8,46 @@
 	<meta name="keywords" content="Jerold Bronsch,Vancouver Web Developer, Vancouver Web Designer, Web Design, UX Design, UI Design">
     <meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="css/normalize.css">
-	<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400italic,700,700italic|Open+Sans:400,400italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/animsition.min.css">
 	<link rel="stylesheet" href="css/main.css">
-	<style></style>
 </head>
 <body>
-	<div id="wrapper">	
 		<header>
 				<nav id="cssmenu">
-					<div id="navbottom">
+					<div class="animsition-overlay" data-animsition-overlay="true" id="navbottom">
 						<ul>
-							<li class="selected"><a href="index.html"><span>Home</span></a></li>
-							<li><a href="about.html"><span>Projects/Work</span></a></li>
-							<li><a href="contact.html"><span>Contact<span></a></li>
+							<li class="selected"><a href="index.html" class="animsition-link"><span>Home</span></a></li>
+							<li><a href="projects.html" class="animsition-link"><span>Projects</span></a></li>
+							<li><a href="contact.html" class="animsition-link"><span>Contact<span></a></li>
 						</ul>
 					</div>
 				</nav>
 		</header>
-		<div class="home">
-			<div>
+		<div class="wrapper" id="home">
+			<div class="wrapper">
 				<h1>Jerold Bronsch</h1>
 				<h2>Freelance Front-End Development and Design</h2>
 			</div>
-			<div id="contenthome">
-				<p>...is a freelance web design and front-end developer living and working in beautiful Richmond, B.C., Canada.</p>
-	</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="js/main.js"></script>
-</body>
+			<div class="wrapper colOne" id="profilePic">
+				<img src="img/me.jpg" id="mePic">
+			</div>
+			<div class="wrapper colTwo">
+				<div class="contentHome">
+					<p>A freelance web designer and front-end developer living and working in Richmond, B.C., Canada.</p>
+					<p>I specialize in HTML5, CSS3, Javascript, and Jquery... but I am always learning more. Two other technologies I have started to learn are Ajax and Node.js. I started learning Front-End development in 2014, and while I have achieved much, there is always more to go.</p>
+					<p>I am currently searching for small-business and personal opportunites for both work and self improvement. Most of my skill lies in front-end coding, but I have both an interest and passion in furthering my design skills as well.<p>
+					<p>I look forward to talking to you soon.</p>
+					<p> :) </p>
+				</div>
+			</div>
+		</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/animsition.min.js"></script>
 <footer>
-<!-- 		<a href="http://facebook.com/elkcrossing"><img src="img/facebook.png" alt="Facebook Logo" class="social-icon"> </a>
-    	<a href="http://twitter.com/jbronsch"><img src="img/twitter.png" alt="Twitter Logo" class="social-icon"> </a> -->
-    	<p>&copy; 2015 Jerold Bronsch</p>
+	<p>&copy; 2015 Jerold Bronsch</p>
 </footer>
+</body>
 </html>
