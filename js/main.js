@@ -1,10 +1,8 @@
 
-var paragraphs;
-var length;
-
-$("#mePic").hide().delay(1000).fadeIn("slow");
-$(".contentHome").hide().delay(2000).fadeIn("slow");
-$("#footer").hide().delay(3000).fadeIn("slow");
+$(function() {
+    $('#home div').each(function(i) {
+        $(this).hide().delay(1000).fadeIn(1000); })
+});
 
 $(document).ready(function() {
   $(".animsition-overlay").animsition({
