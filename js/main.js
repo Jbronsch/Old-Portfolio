@@ -1,8 +1,7 @@
 
-$(function() {
-    $('#home div').each(function(i) {
-        $(this).hide().delay(1000).fadeIn(1000); })
-});
+$(document).ready(function() {
+        $('.container').addClass('container-loaded');
+      });
 
 $(document).ready(function() {
   $(".animsition-overlay").animsition({

@@ -1,0 +1,44 @@
+{% extends "main.twig" %}
+{% block head %}
+<link rel="stylesheet" href="css/contact.css">
+{% endblock head%}
+
+{% block content %}
+<h1>Contact Me!</h1>
+	</div>
+	<div class="wrapper colOne" id="contactForm">
+		<form class="contactForm" role="form" method="post" action="">
+        	<div class="formSection">
+                <label for="form-name">Name</label><br>
+                <input type="text" class="form" name="name" placeholder="Full Name">
+       		</div>
+            <div class="formSection">
+                <label for="form-email" class="control-label">Email</label><br>
+                <input type="text" class="form" name="email" placeholder="Email">
+            </div>
+            <div class="formSection">
+                <label for="form-message" class= "control-label">Message</label><br>
+                    <textarea rows="5" cols="35" class="form" name="message" placeholder="Message"></textarea>
+            </div>
+            <div class="formSection">
+                <div>
+                    <input type="submit" value="Submit" class="button-link">
+                </div>
+        	</div>
+		 	</form>
+		</div>
+	</div>
+	<div class="wrapper colTwo content" id ="socialMediaLinks">
+		<div class="contactLinks">
+			<h1>Email:</h1><br><a href="mailto:jbronsch@gmail.com">Jbronsch@gmail.com</a><br> 
+		</div>
+		<div class="contactLinks">
+			<h1>Phone:</h1><br><a href="tel:604-836-1989">604-846-1989</a><br>
+		</div>
+        <div class="contactLinks">
+            <h1>Social Media:</h1><br>
+            <a href="http://facebook.com/elkcrossing"><img src="img/facebook.png" alt="Facebook Logo" class="social-icon enlarge"> </a>
+            <a href="http://twitter.com/jbronsch"><img src="img/twitter.png" alt="Twitter Logo" class="social-icon enlarge"> </a>
+        </div>
+	</div>
+	{% endblock content %}

@@ -1,0 +1,25 @@
+{% extends "main.twig" %}
+
+{% block content %}
+			<h1>Jerold Bronsch</h1>
+			<h2>Freelance Front-End Development and Design</h2>
+		</div>
+		<div class="wrapper colOne" id="profilePic">
+			<img src="img/me.jpg" alt="Jerold Bronsch" id="mePic">
+			<div id="favicons">
+				<a href="http://facebook.com/elkcrossing"><img src="img/facebook.png" alt="Facebook Logo" class="social-icon enlarge"> </a>
+		    	<a href="http://twitter.com/jbronsch"><img src="img/twitter.png" alt="Twitter Logo" class="social-icon enlarge"> </a>
+	    	</div>
+		</div>
+		<div class="wrapper colTwo">
+			<div class="content">
+				<p>A freelance web designer and front-end developer living and working in Richmond, B.C., Canada.</p>
+				<p>I specialize in HTML5, CSS3, Javascript, and Jquery... but I am always learning more. Two other technologies I have started to learn are Ajax and Node.js, as well as dabbling in PHP. </p>
+				<p>I am currently searching for small-business and personal opportunites for both work and self improvement.<p>
+				<p>I look forward to talking to you soon.</p>
+				<p> :) </p>
+			</div>
+			<div id="hireButton">
+				<<a href="{{ siteUrl("/contact") }}" class="animsition-link button-link">Hire Me Now!</a>
+			</div>
+{% endblock content %}
